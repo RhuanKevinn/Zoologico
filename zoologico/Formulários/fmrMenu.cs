@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using zoologico.Formulários;
 
 namespace zoologico
 {
@@ -34,7 +35,9 @@ namespace zoologico
 
         private void AnimaisToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
+            fmrCadAnimais objCadAnimais = new fmrCadAnimais();
+            objCadAnimais.MdiParent = this;
+            objCadAnimais.Show();
         }
     }
 }

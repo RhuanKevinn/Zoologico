@@ -38,5 +38,16 @@ namespace zoologico.Formulários
         {
 
         }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Confirma Exclusão?", "Excluindo registro...", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)==DialogResult.Yes)
+            {
+                animaisBindingSource.RemoveCurrent();
+                this.tableAdapterManager.UpdateAll(this.db_230577DataSet);
+            }
+                    
+                    
+        }
     }
 }

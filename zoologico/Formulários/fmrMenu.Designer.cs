@@ -35,11 +35,12 @@
             this.tableAdapterManager = new zoologico.db_230577DataSetTableAdapters.TableAdapterManager();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.animaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.animaisToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.db_230577DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_animaisBindingSource)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -67,13 +68,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastrosToolStripMenuItem,
             this.consultasToolStripMenuItem,
             this.relatóriosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -84,47 +86,57 @@
             this.toolStripMenuItem1,
             this.sairToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
-            // 
-            // consultasToolStripMenuItem
-            // 
-            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.consultasToolStripMenuItem.Text = "Consultas";
-            // 
-            // relatóriosToolStripMenuItem
-            // 
-            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // animaisToolStripMenuItem
             // 
             this.animaisToolStripMenuItem.Name = "animaisToolStripMenuItem";
-            this.animaisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.animaisToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
             this.animaisToolStripMenuItem.Text = "Animais";
             this.animaisToolStripMenuItem.Click += new System.EventHandler(this.AnimaisToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(142, 6);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
             this.sairToolStripMenuItem.Text = "&Sair";
+            // 
+            // consultasToolStripMenuItem
+            // 
+            this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.animaisToolStripMenuItem1});
+            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
+            this.consultasToolStripMenuItem.Text = "Consultas";
+            // 
+            // animaisToolStripMenuItem1
+            // 
+            this.animaisToolStripMenuItem1.Name = "animaisToolStripMenuItem1";
+            this.animaisToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.animaisToolStripMenuItem1.Text = "Animais(filtro)";
+            this.animaisToolStripMenuItem1.Click += new System.EventHandler(this.animaisToolStripMenuItem1_Click);
+            // 
+            // relatóriosToolStripMenuItem
+            // 
+            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // fmrMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmrMenu";
             this.Text = "Menu Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -151,6 +163,7 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem animaisToolStripMenuItem1;
     }
 }
 

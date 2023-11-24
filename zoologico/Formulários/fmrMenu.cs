@@ -39,5 +39,15 @@ namespace zoologico
             objCadAnimais.MdiParent = this;
             objCadAnimais.Show();
         }
+
+  
+
+
+        private void animaisToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            fmrConsultaAnimais objConsultaAnimais = new fmrConsultaAnimais();
+            objConsultaAnimais.MdiParent = this;
+            objConsultaAnimais.Show();
+        }
     }
 }

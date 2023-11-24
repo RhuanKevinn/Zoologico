@@ -56,6 +56,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>db_230577DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Formulários\fmrConsultaAnimais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\fmrConsultaAnimais.Designer.cs">
+      <DependentUpon>fmrConsultaAnimais.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulários\fmrMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulários\fmrConsultaAnimais.resx">
+      <DependentUpon>fmrConsultaAnimais.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulários\fmrMenu.resx">
       <DependentUpon>fmrMenu.cs</DependentUpon>
     </EmbeddedResource>

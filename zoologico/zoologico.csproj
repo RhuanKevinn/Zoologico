@@ -94,6 +94,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Relatórios\RelatorioAnimais.rdlc" />
     <None Include="Dados\DataSet_Zoologico.xsc">
       <DependentUpon>DataSet_Zoologico.xsd</DependentUpon>
     </None>

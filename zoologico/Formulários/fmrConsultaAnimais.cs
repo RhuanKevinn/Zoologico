@@ -73,5 +73,10 @@ namespace zoologico.Formulários
 
             animaisBindingSource.Filter = vFiltro;
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

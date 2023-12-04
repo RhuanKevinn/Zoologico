@@ -41,6 +41,7 @@
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.animaisToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatórioAnimaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.db_230577DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_animaisBindingSource)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -118,15 +119,24 @@
             // animaisToolStripMenuItem1
             // 
             this.animaisToolStripMenuItem1.Name = "animaisToolStripMenuItem1";
-            this.animaisToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.animaisToolStripMenuItem1.Size = new System.Drawing.Size(187, 26);
             this.animaisToolStripMenuItem1.Text = "Animais(filtro)";
             this.animaisToolStripMenuItem1.Click += new System.EventHandler(this.animaisToolStripMenuItem1_Click);
             // 
             // relatóriosToolStripMenuItem
             // 
+            this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.relatórioAnimaisToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
             this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
+            // 
+            // relatórioAnimaisToolStripMenuItem
+            // 
+            this.relatórioAnimaisToolStripMenuItem.Name = "relatórioAnimaisToolStripMenuItem";
+            this.relatórioAnimaisToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.relatórioAnimaisToolStripMenuItem.Text = "Relatório Animais";
+            this.relatórioAnimaisToolStripMenuItem.Click += new System.EventHandler(this.relatórioAnimaisToolStripMenuItem_Click);
             // 
             // fmrMenu
             // 
@@ -164,6 +174,7 @@
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem animaisToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem relatórioAnimaisToolStripMenuItem;
     }
 }
 

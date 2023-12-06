@@ -74,29 +74,29 @@ SELECT id, nome, classe, peso, data_nascimento FROM Animais WHERE (id = @id)</Co
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="DataSet_Zoologico" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Zoologico" msprop:Generator_UserDSName="DataSet_Zoologico">
+  <xs:element name="DataSet_Zoologico" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet_Zoologico" msprop:Generator_DataSetName="DataSet_Zoologico">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Animais" msprop:Generator_TableClassName="AnimaisDataTable" msprop:Generator_TableVarName="tableAnimais" msprop:Generator_TablePropName="Animais" msprop:Generator_RowDeletingName="AnimaisRowDeleting" msprop:Generator_RowChangingName="AnimaisRowChanging" msprop:Generator_RowEvHandlerName="AnimaisRowChangeEventHandler" msprop:Generator_RowDeletedName="AnimaisRowDeleted" msprop:Generator_UserTableName="Animais" msprop:Generator_RowChangedName="AnimaisRowChanged" msprop:Generator_RowEvArgName="AnimaisRowChangeEvent" msprop:Generator_RowClassName="AnimaisRow">
+        <xs:element name="Animais" msprop:Generator_RowClassName="AnimaisRow" msprop:Generator_RowEvHandlerName="AnimaisRowChangeEventHandler" msprop:Generator_RowDeletedName="AnimaisRowDeleted" msprop:Generator_RowDeletingName="AnimaisRowDeleting" msprop:Generator_RowEvArgName="AnimaisRowChangeEvent" msprop:Generator_TablePropName="Animais" msprop:Generator_RowChangedName="AnimaisRowChanged" msprop:Generator_RowChangingName="AnimaisRowChanging" msprop:Generator_TableClassName="AnimaisDataTable" msprop:Generator_UserTableName="Animais" msprop:Generator_TableVarName="tableAnimais">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
-              <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome">
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="nome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_UserColumnName="nome">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="classe" msprop:Generator_ColumnVarNameInTable="columnclasse" msprop:Generator_ColumnPropNameInRow="classe" msprop:Generator_ColumnPropNameInTable="classeColumn" msprop:Generator_UserColumnName="classe">
+              <xs:element name="classe" msprop:Generator_ColumnPropNameInRow="classe" msprop:Generator_ColumnPropNameInTable="classeColumn" msprop:Generator_ColumnVarNameInTable="columnclasse" msprop:Generator_UserColumnName="classe">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="peso" msprop:Generator_ColumnVarNameInTable="columnpeso" msprop:Generator_ColumnPropNameInRow="peso" msprop:Generator_ColumnPropNameInTable="pesoColumn" msprop:Generator_UserColumnName="peso" type="xs:int" />
-              <xs:element name="data_nascimento" msprop:Generator_ColumnVarNameInTable="columndata_nascimento" msprop:Generator_ColumnPropNameInRow="data_nascimento" msprop:Generator_ColumnPropNameInTable="data_nascimentoColumn" msprop:Generator_UserColumnName="data_nascimento" type="xs:dateTime" />
+              <xs:element name="peso" msprop:Generator_ColumnPropNameInRow="peso" msprop:Generator_ColumnPropNameInTable="pesoColumn" msprop:Generator_ColumnVarNameInTable="columnpeso" msprop:Generator_UserColumnName="peso" type="xs:int" />
+              <xs:element name="data_nascimento" msprop:Generator_ColumnPropNameInRow="data_nascimento" msprop:Generator_ColumnPropNameInTable="data_nascimentoColumn" msprop:Generator_ColumnVarNameInTable="columndata_nascimento" msprop:Generator_UserColumnName="data_nascimento" type="xs:dateTime" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

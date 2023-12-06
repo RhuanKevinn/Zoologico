@@ -92,6 +92,12 @@
     <Compile Include="Formulários\fmrCadAnimais.Designer.cs">
       <DependentUpon>fmrCadAnimais.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulários\frmVisualizaAnimaisPorClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\frmVisualizaAnimaisPorClasse.Designer.cs">
+      <DependentUpon>frmVisualizaAnimaisPorClasse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulários\frmVisualizaListaAnimais.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\fmrCadAnimais.resx">
       <DependentUpon>fmrCadAnimais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\frmVisualizaAnimaisPorClasse.resx">
+      <DependentUpon>frmVisualizaAnimaisPorClasse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\frmVisualizaListaAnimais.resx">
       <DependentUpon>frmVisualizaListaAnimais.cs</DependentUpon>
